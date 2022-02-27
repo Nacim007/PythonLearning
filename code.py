@@ -114,7 +114,7 @@ def hashing():
 
 #print(hashing())
 
-import numpy
+"""import numpy
 
 def arrays(arr):
     arr = list(reversed(arr))
@@ -130,7 +130,7 @@ def matrix():
     my_array = numpy.array(ls)
     return(numpy.reshape(my_array, (3, 3)))
 
-#print(matrix())
+#print(matrix())"""
 
 def swap_case():
     s = input("Enter the phrase:")
