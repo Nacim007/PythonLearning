@@ -185,8 +185,3 @@ def median():
 
 print(median())
 
-
-"""
-coucou maman ,kiferjcrrfec
-et papa
-"""
