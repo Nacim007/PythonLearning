@@ -183,5 +183,5 @@ def median():
     mid = int((len(arr_sorted)+1)/2)
     return arr_sorted[mid-1]
 
-print(median())
+# print(median())
 
