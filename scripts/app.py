@@ -1,9 +1,14 @@
+import pandas as pd
 
-print("It works")
+class Excel():
+    def __init__(self,file):
+        self.file = file 
 
-a = int(input("Etre un nombre "))
-b = 6
-print(f'{a} est {b} sont egaux')
-print('lol')
+    def read_file(self):
+        self.df = pd.read_csv(self.file)  
+        return self.df
 
-print("test test")
+    def count(self):
+        cols = self.df.shape(1)
+        rows = self.df.shape(0)
+        return cols, rows
